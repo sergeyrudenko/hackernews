@@ -1,10 +1,74 @@
-.App {
+.page {
+  margin: 20px;
+}
+
+.interaction {
+  text-align: center;
+}
+
+.table {
+  margin: 20px 0;
+}
+
+.table-header {
+  line-height: 24px;
+  display: flex;
+  font-size: 16px;
+  padding: 0 16px;
+  justify-content: space-between;
+}
+
+.table-empty {
+  margin: 200px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.table-row {
+  margin: 10px 0;
+  line-height: 24px;
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #e3e3e3;
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.table-header>span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.table-row>span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 5px;
+}
+
+.button-inline {
+  border-width: 0;
+  background: transparent;
+  color: inherit;
+  text-align: inherit;
+  -webkit-font-smoothing: inherit;
+  padding: 0;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.button-active {
+  border-radius: 0;
+  border-bottom: 1px solid #38BB6C;
+}
+
+/* .App {
   text-align: center;
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+  animation: App-logo-spin infinite 1s linear;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -30,4 +94,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
