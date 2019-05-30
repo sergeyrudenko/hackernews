@@ -27,5 +27,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://hn.algolia.com/api/v1/search?query=redux"
 }
