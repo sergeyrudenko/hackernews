@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lodash": "^4.17.11",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
@@ -28,5 +29,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://hn.algolia.com/api/v1/search?query=redux"
+  "proxy": "https://hn.algolia.com/api/v1/search?query=redux",
+  "devDependencies": {
+    "react-test-renderer": "^16.8.6"
+  }
 }
